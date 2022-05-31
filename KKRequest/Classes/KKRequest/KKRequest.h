@@ -21,4 +21,6 @@
 
 #import "KKNetWorkObserver.h"
 
+#import <AFNetworking/AFNetworking.h>
+
 #endif /* KKRequest_h */
