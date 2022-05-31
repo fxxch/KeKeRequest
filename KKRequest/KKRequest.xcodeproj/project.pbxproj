@@ -213,8 +213,8 @@
 		117258412845B32B00780CEB /* AFHTTPSessionManager+KKExtention */ = {
 			isa = PBXGroup;
 			children = (
-				117258422845B32B00780CEB /* AFHTTPSessionManager+KKExtention.m */,
 				117258432845B32B00780CEB /* AFHTTPSessionManager+KKExtention.h */,
+				117258422845B32B00780CEB /* AFHTTPSessionManager+KKExtention.m */,
 			);
 			path = "AFHTTPSessionManager+KKExtention";
 			sourceTree = "<group>";
