@@ -7,7 +7,7 @@
 //
 
 #import "AFHTTPSessionManager.h"
-#import "AFNetworking.h"
+#import <AFNetworking/AFNetworking.h>
 
 @class KKRequestParam;
 
