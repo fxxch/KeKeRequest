@@ -6,7 +6,6 @@
 //  Copyright © 2018年 KKLibray. All rights reserved.
 //
 
-#import "AFHTTPSessionManager.h"
 #import <AFNetworking/AFNetworking.h>
 
 @class KKRequestParam;

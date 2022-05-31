@@ -204,8 +204,8 @@
 		1172583E2845B32B00780CEB /* KKRequestManager */ = {
 			isa = PBXGroup;
 			children = (
-				1172583F2845B32B00780CEB /* KKRequestManager.m */,
 				117258402845B32B00780CEB /* KKRequestManager.h */,
+				1172583F2845B32B00780CEB /* KKRequestManager.m */,
 			);
 			path = KKRequestManager;
 			sourceTree = "<group>";
