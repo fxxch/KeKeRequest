@@ -99,8 +99,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-    s.source_files  = "KeKeRequest/Classes/**/*.{h,m,c}"
-    s.public_header_files = "KeKeRequest/Classes/**/*.h"
+    s.source_files  = "KKRequest/Classes/**/*.{h,m,c}"
+    s.public_header_files = "KKRequest/Classes/**/*.h"
   # s.exclude_files = "Classes/Exclude"
 
 
@@ -114,7 +114,7 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
-    s.resources = "KeKeRequest/Classes/**/*.{bundle,sqlite,caf,txt,plist}"  
+    s.resources = "KKRequest/Classes/**/*.{bundle,sqlite,caf,txt,plist}"  
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
