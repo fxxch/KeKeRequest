@@ -14,3 +14,10 @@ target 'KKRequestLibrary' do
   pod 'AFNetworking'
 
 end
+
+
+target 'KKRequestDemo' do
+
+  pod 'KeKeRequest'
+
+end

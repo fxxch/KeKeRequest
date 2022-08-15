@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -30,12 +30,6 @@
 		117258622845B32B00780CEB /* KKRequestSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 117258472845B32B00780CEB /* KKRequestSender.m */; };
 		117258632845B32B00780CEB /* KKRequestSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 117258472845B32B00780CEB /* KKRequestSender.m */; };
 		117258642845B32B00780CEB /* KKRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 117258482845B32B00780CEB /* KKRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		117258652845B32B00780CEB /* BaseRequestParam.h in Headers */ = {isa = PBXBuildFile; fileRef = 1172584A2845B32B00780CEB /* BaseRequestParam.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		117258662845B32B00780CEB /* BaseRequestSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 1172584B2845B32B00780CEB /* BaseRequestSender.m */; };
-		117258672845B32B00780CEB /* BaseRequestSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 1172584B2845B32B00780CEB /* BaseRequestSender.m */; };
-		117258682845B32B00780CEB /* BaseRequestParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 1172584C2845B32B00780CEB /* BaseRequestParam.m */; };
-		117258692845B32B00780CEB /* BaseRequestParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 1172584C2845B32B00780CEB /* BaseRequestParam.m */; };
-		1172586A2845B32B00780CEB /* BaseRequestSender.h in Headers */ = {isa = PBXBuildFile; fileRef = 1172584D2845B32B00780CEB /* BaseRequestSender.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1172586B2845B51400780CEB /* KKRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 117258482845B32B00780CEB /* KKRequest.h */; };
 		1172586C2845B51400780CEB /* NSObject+KKRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 117258342845B32B00780CEB /* NSObject+KKRequest.h */; };
 		1172586D2845B51400780CEB /* KKRequestTarget.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 117258372845B32B00780CEB /* KKRequestTarget.h */; };
@@ -45,16 +39,25 @@
 		117258712845B51400780CEB /* KKRequestManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 117258402845B32B00780CEB /* KKRequestManager.h */; };
 		117258722845B51400780CEB /* AFHTTPSessionManager+KKExtention.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 117258432845B32B00780CEB /* AFHTTPSessionManager+KKExtention.h */; };
 		117258732845B51400780CEB /* KKFormRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 117258452845B32B00780CEB /* KKFormRequest.h */; };
-		117258742845B51400780CEB /* BaseRequestParam.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1172584A2845B32B00780CEB /* BaseRequestParam.h */; };
-		117258752845B51400780CEB /* BaseRequestSender.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1172584D2845B32B00780CEB /* BaseRequestSender.h */; };
 		117258792845B85900780CEB /* KKNetWorkObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 117258772845B85900780CEB /* KKNetWorkObserver.m */; };
 		1172587A2845B85900780CEB /* KKNetWorkObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 117258772845B85900780CEB /* KKNetWorkObserver.m */; };
 		1172587B2845B85900780CEB /* KKNetWorkObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 117258782845B85900780CEB /* KKNetWorkObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1172587C2845C09100780CEB /* KKNetWorkObserver.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 117258782845B85900780CEB /* KKNetWorkObserver.h */; };
+		11AFBB4B28A9DCC800B72F7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AFBB4A28A9DCC800B72F7F /* AppDelegate.m */; };
+		11AFBB5C28A9DCCA00B72F7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AFBB5B28A9DCCA00B72F7F /* main.m */; };
+		11AFBB6F28A9DDDB00B72F7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11AFBB6228A9DDDB00B72F7F /* LaunchScreen.storyboard */; };
+		11AFBB7028A9DDDB00B72F7F /* LaunchScreen.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11AFBB6328A9DDDB00B72F7F /* LaunchScreen.xcassets */; };
+		11AFBB7228A9DDDB00B72F7F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11AFBB6628A9DDDB00B72F7F /* Localizable.strings */; };
+		11AFBB7328A9DDDB00B72F7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11AFBB6828A9DDDB00B72F7F /* InfoPlist.strings */; };
+		11AFBB7428A9DDDB00B72F7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11AFBB6D28A9DDDB00B72F7F /* Images.xcassets */; };
+		11AFBB7728A9DE5500B72F7F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AFBB7628A9DE5500B72F7F /* HomeViewController.m */; };
+		11AFBB7A28A9DEF700B72F7F /* KKRequestSender_Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AFBB7928A9DEF700B72F7F /* KKRequestSender_Demo.m */; };
+		11AFBB7D28A9DF3C00B72F7F /* KKRequestParam_Demo.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AFBB7C28A9DF3C00B72F7F /* KKRequestParam_Demo.m */; };
 		22AED23491BCB7F825668E61 /* Pods_KKRequestLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4183AC22935CB1210663EBE0 /* Pods_KKRequestLibrary.framework */; };
 		3A654496258CC1C800942E7E /* KKRequestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A654494258CC1C800942E7E /* KKRequestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3AA02E37258E488C004AF28A /* KKRequestLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3AA02E34258E4857004AF28A /* KKRequestLibrary.h */; };
 		8B0847C3840360D1FA4C9F7B /* Pods_KKRequestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A27E6A28FEF66296FA0648 /* Pods_KKRequestFramework.framework */; };
+		BD2D6C3787F49C548D2ECEEF /* Pods_KKRequestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE3DE7F6F3AB8F46249556B /* Pods_KKRequestDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -83,8 +86,6 @@
 				117258712845B51400780CEB /* KKRequestManager.h in CopyFiles */,
 				117258722845B51400780CEB /* AFHTTPSessionManager+KKExtention.h in CopyFiles */,
 				117258732845B51400780CEB /* KKFormRequest.h in CopyFiles */,
-				117258742845B51400780CEB /* BaseRequestParam.h in CopyFiles */,
-				117258752845B51400780CEB /* BaseRequestSender.h in CopyFiles */,
 				3AA02E37258E488C004AF28A /* KKRequestLibrary.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,12 +109,29 @@
 		117258462845B32B00780CEB /* KKFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKFormRequest.m; sourceTree = "<group>"; };
 		117258472845B32B00780CEB /* KKRequestSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKRequestSender.m; sourceTree = "<group>"; };
 		117258482845B32B00780CEB /* KKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKRequest.h; sourceTree = "<group>"; };
-		1172584A2845B32B00780CEB /* BaseRequestParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequestParam.h; sourceTree = "<group>"; };
-		1172584B2845B32B00780CEB /* BaseRequestSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequestSender.m; sourceTree = "<group>"; };
-		1172584C2845B32B00780CEB /* BaseRequestParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequestParam.m; sourceTree = "<group>"; };
-		1172584D2845B32B00780CEB /* BaseRequestSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequestSender.h; sourceTree = "<group>"; };
 		117258772845B85900780CEB /* KKNetWorkObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKNetWorkObserver.m; sourceTree = "<group>"; };
 		117258782845B85900780CEB /* KKNetWorkObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKNetWorkObserver.h; sourceTree = "<group>"; };
+		11AFBB4728A9DCC800B72F7F /* KKRequestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKRequestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11AFBB4928A9DCC800B72F7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11AFBB4A28A9DCC800B72F7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11AFBB5B28A9DCCA00B72F7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11AFBB6228A9DDDB00B72F7F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11AFBB6328A9DDDB00B72F7F /* LaunchScreen.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LaunchScreen.xcassets; sourceTree = "<group>"; };
+		11AFBB6428A9DDDB00B72F7F /* KKRequestDemo_Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KKRequestDemo_Info.plist; sourceTree = "<group>"; };
+		11AFBB6728A9DDDB00B72F7F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		11AFBB6928A9DDDB00B72F7F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		11AFBB6A28A9DDDB00B72F7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		11AFBB6B28A9DDDB00B72F7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11AFBB6C28A9DDDB00B72F7F /* AppDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDefine.h; sourceTree = "<group>"; };
+		11AFBB6D28A9DDDB00B72F7F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		11AFBB6E28A9DDDB00B72F7F /* KKRequestDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KKRequestDemo-Prefix.pch"; sourceTree = "<group>"; };
+		11AFBB7528A9DE5500B72F7F /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		11AFBB7628A9DE5500B72F7F /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		11AFBB7828A9DEF700B72F7F /* KKRequestSender_Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKRequestSender_Demo.h; sourceTree = "<group>"; };
+		11AFBB7928A9DEF700B72F7F /* KKRequestSender_Demo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKRequestSender_Demo.m; sourceTree = "<group>"; };
+		11AFBB7B28A9DF3C00B72F7F /* KKRequestParam_Demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKRequestParam_Demo.h; sourceTree = "<group>"; };
+		11AFBB7C28A9DF3C00B72F7F /* KKRequestParam_Demo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKRequestParam_Demo.m; sourceTree = "<group>"; };
+		227ECCD943B94FF8EFC56204 /* Pods-KKRequestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKRequestDemo.release.xcconfig"; path = "Target Support Files/Pods-KKRequestDemo/Pods-KKRequestDemo.release.xcconfig"; sourceTree = "<group>"; };
 		26A27E6A28FEF66296FA0648 /* Pods_KKRequestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKRequestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A654492258CC1C800942E7E /* KKRequestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KKRequestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A654494258CC1C800942E7E /* KKRequestFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKRequestFramework.h; sourceTree = "<group>"; };
@@ -123,11 +141,21 @@
 		4183AC22935CB1210663EBE0 /* Pods_KKRequestLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKRequestLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57233D42BF2694F755E5D664 /* Pods-KKRequestLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKRequestLibrary.release.xcconfig"; path = "Target Support Files/Pods-KKRequestLibrary/Pods-KKRequestLibrary.release.xcconfig"; sourceTree = "<group>"; };
 		5AFE8056F1CB6ACC7AA2F751 /* Pods-KKRequestFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKRequestFramework.debug.xcconfig"; path = "Target Support Files/Pods-KKRequestFramework/Pods-KKRequestFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		6FE3DE7F6F3AB8F46249556B /* Pods_KKRequestDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKRequestDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C834BA800BC1957B18DE49A /* Pods-KKRequestLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKRequestLibrary.debug.xcconfig"; path = "Target Support Files/Pods-KKRequestLibrary/Pods-KKRequestLibrary.debug.xcconfig"; sourceTree = "<group>"; };
 		F3D8B1EF9E86A4E5B148F211 /* Pods-KKRequestFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKRequestFramework.release.xcconfig"; path = "Target Support Files/Pods-KKRequestFramework/Pods-KKRequestFramework.release.xcconfig"; sourceTree = "<group>"; };
+		FA5CEA29543B2831F68E6E24 /* Pods-KKRequestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKRequestDemo.debug.xcconfig"; path = "Target Support Files/Pods-KKRequestDemo/Pods-KKRequestDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		11AFBB4428A9DCC800B72F7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2D6C3787F49C548D2ECEEF /* Pods_KKRequestDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3A65448F258CC1C800942E7E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -152,7 +180,6 @@
 			children = (
 				117258482845B32B00780CEB /* KKRequest.h */,
 				117258322845B32B00780CEB /* Basic */,
-				117258492845B32B00780CEB /* Base */,
 			);
 			path = KKRequest;
 			sourceTree = "<group>";
@@ -228,17 +255,6 @@
 			path = KKFormRequest;
 			sourceTree = "<group>";
 		};
-		117258492845B32B00780CEB /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				1172584A2845B32B00780CEB /* BaseRequestParam.h */,
-				1172584C2845B32B00780CEB /* BaseRequestParam.m */,
-				1172584D2845B32B00780CEB /* BaseRequestSender.h */,
-				1172584B2845B32B00780CEB /* BaseRequestSender.m */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
 		117258762845B85900780CEB /* KKNetWorkObserver */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,6 +262,54 @@
 				117258772845B85900780CEB /* KKNetWorkObserver.m */,
 			);
 			path = KKNetWorkObserver;
+			sourceTree = "<group>";
+		};
+		11AFBB4828A9DCC800B72F7F /* KKRequestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				11AFBB6028A9DDDB00B72F7F /* KKRequestDemo */,
+				11AFBB4928A9DCC800B72F7F /* AppDelegate.h */,
+				11AFBB4A28A9DCC800B72F7F /* AppDelegate.m */,
+				11AFBB5B28A9DCCA00B72F7F /* main.m */,
+				11AFBB7528A9DE5500B72F7F /* HomeViewController.h */,
+				11AFBB7628A9DE5500B72F7F /* HomeViewController.m */,
+				11AFBB7828A9DEF700B72F7F /* KKRequestSender_Demo.h */,
+				11AFBB7928A9DEF700B72F7F /* KKRequestSender_Demo.m */,
+				11AFBB7B28A9DF3C00B72F7F /* KKRequestParam_Demo.h */,
+				11AFBB7C28A9DF3C00B72F7F /* KKRequestParam_Demo.m */,
+			);
+			path = KKRequestDemo;
+			sourceTree = "<group>";
+		};
+		11AFBB6028A9DDDB00B72F7F /* KKRequestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				11AFBB6128A9DDDB00B72F7F /* Launch */,
+				11AFBB6528A9DDDB00B72F7F /* Language */,
+				11AFBB6C28A9DDDB00B72F7F /* AppDefine.h */,
+				11AFBB6D28A9DDDB00B72F7F /* Images.xcassets */,
+				11AFBB6428A9DDDB00B72F7F /* KKRequestDemo_Info.plist */,
+				11AFBB6E28A9DDDB00B72F7F /* KKRequestDemo-Prefix.pch */,
+			);
+			path = KKRequestDemo;
+			sourceTree = "<group>";
+		};
+		11AFBB6128A9DDDB00B72F7F /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				11AFBB6228A9DDDB00B72F7F /* LaunchScreen.storyboard */,
+				11AFBB6328A9DDDB00B72F7F /* LaunchScreen.xcassets */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		11AFBB6528A9DDDB00B72F7F /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				11AFBB6628A9DDDB00B72F7F /* Localizable.strings */,
+				11AFBB6828A9DDDB00B72F7F /* InfoPlist.strings */,
+			);
+			path = Language;
 			sourceTree = "<group>";
 		};
 		3A654493258CC1C800942E7E /* KKRequestFramework */ = {
@@ -270,6 +334,7 @@
 			children = (
 				3A9542A723700AF800684636 /* KKRequestLibrary */,
 				3A654493258CC1C800942E7E /* KKRequestFramework */,
+				11AFBB4828A9DCC800B72F7F /* KKRequestDemo */,
 			);
 			path = Product;
 			sourceTree = "<group>";
@@ -290,6 +355,7 @@
 			children = (
 				3A9542A523700AF800684636 /* libKKRequestLibrary.a */,
 				3A654492258CC1C800942E7E /* KKRequestFramework.framework */,
+				11AFBB4728A9DCC800B72F7F /* KKRequestDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -307,6 +373,7 @@
 			children = (
 				26A27E6A28FEF66296FA0648 /* Pods_KKRequestFramework.framework */,
 				4183AC22935CB1210663EBE0 /* Pods_KKRequestLibrary.framework */,
+				6FE3DE7F6F3AB8F46249556B /* Pods_KKRequestDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -318,6 +385,8 @@
 				F3D8B1EF9E86A4E5B148F211 /* Pods-KKRequestFramework.release.xcconfig */,
 				7C834BA800BC1957B18DE49A /* Pods-KKRequestLibrary.debug.xcconfig */,
 				57233D42BF2694F755E5D664 /* Pods-KKRequestLibrary.release.xcconfig */,
+				FA5CEA29543B2831F68E6E24 /* Pods-KKRequestDemo.debug.xcconfig */,
+				227ECCD943B94FF8EFC56204 /* Pods-KKRequestDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -334,8 +403,6 @@
 				1172585E2845B32B00780CEB /* AFHTTPSessionManager+KKExtention.h in Headers */,
 				117258562845B32B00780CEB /* KKRequestSender.h in Headers */,
 				117258552845B32B00780CEB /* KKRequestDefine.h in Headers */,
-				117258652845B32B00780CEB /* BaseRequestParam.h in Headers */,
-				1172586A2845B32B00780CEB /* BaseRequestSender.h in Headers */,
 				3A654496258CC1C800942E7E /* KKRequestFramework.h in Headers */,
 				1172585F2845B32B00780CEB /* KKFormRequest.h in Headers */,
 				117258542845B32B00780CEB /* KKRequestParam.h in Headers */,
@@ -348,6 +415,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		11AFBB4628A9DCC800B72F7F /* KKRequestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11AFBB5F28A9DCCA00B72F7F /* Build configuration list for PBXNativeTarget "KKRequestDemo" */;
+			buildPhases = (
+				149A2F4A4338657B6464F4D8 /* [CP] Check Pods Manifest.lock */,
+				11AFBB4328A9DCC800B72F7F /* Sources */,
+				11AFBB4428A9DCC800B72F7F /* Frameworks */,
+				11AFBB4528A9DCC800B72F7F /* Resources */,
+				9D2280471751F722941BEC39 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKRequestDemo;
+			productName = KKRequestDemo;
+			productReference = 11AFBB4728A9DCC800B72F7F /* KKRequestDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		3A654491258CC1C800942E7E /* KKRequestFramework */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A654499258CC1C800942E7E /* Build configuration list for PBXNativeTarget "KKRequestFramework" */;
@@ -395,6 +481,9 @@
 				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = KKLibrary;
 				TargetAttributes = {
+					11AFBB4628A9DCC800B72F7F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
 					3A654491258CC1C800942E7E = {
 						CreatedOnToolsVersion = 12.2;
 					};
@@ -410,6 +499,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 3A95429C23700AF800684636;
 			productRefGroup = 3A9542A623700AF800684636 /* Products */;
@@ -418,11 +508,24 @@
 			targets = (
 				3A9542A423700AF800684636 /* KKRequestLibrary */,
 				3A654491258CC1C800942E7E /* KKRequestFramework */,
+				11AFBB4628A9DCC800B72F7F /* KKRequestDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		11AFBB4528A9DCC800B72F7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11AFBB7028A9DDDB00B72F7F /* LaunchScreen.xcassets in Resources */,
+				11AFBB7228A9DDDB00B72F7F /* Localizable.strings in Resources */,
+				11AFBB7428A9DDDB00B72F7F /* Images.xcassets in Resources */,
+				11AFBB6F28A9DDDB00B72F7F /* LaunchScreen.storyboard in Resources */,
+				11AFBB7328A9DDDB00B72F7F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3A654490258CC1C800942E7E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -433,6 +536,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		149A2F4A4338657B6464F4D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KKRequestDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2C7B5FE254FD08AB294F52C6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -453,6 +578,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D2280471751F722941BEC39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KKRequestDemo/Pods-KKRequestDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KKRequestDemo/Pods-KKRequestDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KKRequestDemo/Pods-KKRequestDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EBC5869416FDAE536F3C228D /* [CP] Check Pods Manifest.lock */ = {
@@ -480,6 +622,18 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		11AFBB4328A9DCC800B72F7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11AFBB4B28A9DCC800B72F7F /* AppDelegate.m in Sources */,
+				11AFBB7D28A9DF3C00B72F7F /* KKRequestParam_Demo.m in Sources */,
+				11AFBB7A28A9DEF700B72F7F /* KKRequestSender_Demo.m in Sources */,
+				11AFBB5C28A9DCCA00B72F7F /* main.m in Sources */,
+				11AFBB7728A9DE5500B72F7F /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3A65448E258CC1C800942E7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -487,13 +641,11 @@
 				117258632845B32B00780CEB /* KKRequestSender.m in Sources */,
 				117258502845B32B00780CEB /* KKRequestTarget.m in Sources */,
 				117258532845B32B00780CEB /* KKRequestParam.m in Sources */,
-				117258672845B32B00780CEB /* BaseRequestSender.m in Sources */,
 				1172585D2845B32B00780CEB /* AFHTTPSessionManager+KKExtention.m in Sources */,
 				117258582845B32B00780CEB /* NSObject+KKRequest.m in Sources */,
 				1172585A2845B32B00780CEB /* KKRequestManager.m in Sources */,
 				117258612845B32B00780CEB /* KKFormRequest.m in Sources */,
 				1172587A2845B85900780CEB /* KKNetWorkObserver.m in Sources */,
-				117258692845B32B00780CEB /* BaseRequestParam.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,19 +656,100 @@
 				117258622845B32B00780CEB /* KKRequestSender.m in Sources */,
 				1172584F2845B32B00780CEB /* KKRequestTarget.m in Sources */,
 				117258522845B32B00780CEB /* KKRequestParam.m in Sources */,
-				117258662845B32B00780CEB /* BaseRequestSender.m in Sources */,
 				1172585C2845B32B00780CEB /* AFHTTPSessionManager+KKExtention.m in Sources */,
 				117258572845B32B00780CEB /* NSObject+KKRequest.m in Sources */,
 				117258592845B32B00780CEB /* KKRequestManager.m in Sources */,
 				117258602845B32B00780CEB /* KKFormRequest.m in Sources */,
 				117258792845B85900780CEB /* KKNetWorkObserver.m in Sources */,
-				117258682845B32B00780CEB /* BaseRequestParam.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		11AFBB6628A9DDDB00B72F7F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11AFBB6728A9DDDB00B72F7F /* zh-Hans */,
+				11AFBB6A28A9DDDB00B72F7F /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		11AFBB6828A9DDDB00B72F7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11AFBB6928A9DDDB00B72F7F /* zh-Hans */,
+				11AFBB6B28A9DDDB00B72F7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		11AFBB5D28A9DCCA00B72F7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA5CEA29543B2831F68E6E24 /* Pods-KKRequestDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B6ZS9CJ35W;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Product/KKRequestDemo/KKRequestDemo/KKRequestDemo-Prefix.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Product/KKRequestDemo/KKRequestDemo/KKRequestDemo_Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KK.KKRequestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11AFBB5E28A9DCCA00B72F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 227ECCD943B94FF8EFC56204 /* Pods-KKRequestDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B6ZS9CJ35W;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Product/KKRequestDemo/KKRequestDemo/KKRequestDemo-Prefix.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Product/KKRequestDemo/KKRequestDemo/KKRequestDemo_Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KK.KKRequestDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		3A654497258CC1C800942E7E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5AFE8056F1CB6ACC7AA2F751 /* Pods-KKRequestFramework.debug.xcconfig */;
@@ -750,6 +983,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		11AFBB5F28A9DCCA00B72F7F /* Build configuration list for PBXNativeTarget "KKRequestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11AFBB5D28A9DCCA00B72F7F /* Debug */,
+				11AFBB5E28A9DCCA00B72F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3A654499258CC1C800942E7E /* Build configuration list for PBXNativeTarget "KKRequestFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

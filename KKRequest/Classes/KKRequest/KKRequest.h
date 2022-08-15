@@ -13,11 +13,9 @@
 #import "KKRequestDefine.h"
 #import "KKRequestManager.h"
 #import "KKRequestParam.h"
+#import "KKRequestSender.h"
 #import "KKRequestTarget.h"
 #import "NSObject+KKRequest.h"
-
-#import "BaseRequestParam.h"
-#import "BaseRequestSender.h"
 
 #import "KKNetWorkObserver.h"
 
