@@ -18,6 +18,7 @@ end
 
 target 'KKRequestDemo' do
 
-  pod 'KeKeRequest'
+#  pod 'KeKeRequest'
+  pod 'KeKeRequest', :path => '../../KeKeRequest'
 
 end
